@@ -1,0 +1,242 @@
+<html>
+    <head>
+        <title>Spend Musk Money</title>
+        <style>
+            #Elon{
+                width: 1000px;
+                height: 300px;
+             background-color: rgb(255, 255, 255);
+             margin-left: 200px;
+             
+            
+               
+            }
+            #spend{
+
+
+         font-size: 30px;
+         font-weight: bold;  
+         margin-top: 20px; 
+         margin-left: 365px;   
+
+            }
+            #T{
+                
+                font-size: 30px;
+                font-weight: bold;  
+                color: white;
+                margin-top: 5px; 
+                display:flex;
+                justify-content: center;
+                
+            }
+ #img{
+                    
+                    width: 170px;
+                    height: 170px;
+                    border-radius: 50%;
+                   
+                   margin-top: 20px;
+                   margin-left: 400px;
+                }
+
+                #networth{
+                   position: sticky;
+    top: 0;
+    z-index: 1000;
+                    width: 1000px;
+                    height: 50px;
+                    font-size: 30px;
+                    font-weight: bold;
+                    display: flex;
+                    justify-content: center;
+                    margin-left: 200px;
+                    
+                    
+                     margin-top: 10px;
+                    margin-bottom: 10px;
+                    background:linear-gradient( rgb(93, 228, 93), rgb(44, 177, 44))
+                }
+            #whole{
+             margin-left:300px;
+             margin-right:300px;
+             display: flex;
+               justify-content: center;
+            }
+           
+            #objects{
+                display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+            }
+            .buttons{
+                display: flex;
+                justify-content: center;
+
+gap:12px;
+
+    
+   
+            }
+            .name{
+                font-size: 27px;
+                font-weight: bold;
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+            }
+            .image{
+                width: 190px;
+                height: 150px;
+                margin-left: 80px;
+                margin-top: 20px;
+            }
+   #bg{
+    background-color: rgb(237, 237, 237);
+   }
+
+
+            .price{
+                font-size: 22px;
+                font-weight: bold;
+                display: flex;
+                color:rgb(77, 206, 77);
+                justify-content: center;
+                margin-top: 1px
+                
+
+            }
+      .card{
+        width: 320px;
+        height: 320px;
+        background-color: rgb(255, 255, 255);
+       
+   
+      }
+      .sell{
+        font-size: 16px;
+        margin-top: 1px;
+        width: 90px;
+        height: 35px;
+        margin-left:10px;
+        border-color: white;
+        color: white;
+         background:linear-gradient(rgb(237, 39, 39),rgb(197, 27, 27))
+         
+      }
+      .countT{
+        font-size:20px;
+        margin-top: 4px;
+      }
+      .count-{
+      font-size:25px;
+      background-color: white;
+       margin-top: 1px;
+        width: 90px;
+        height: 30px;
+        border: 1px solid black;
+      display: flex;
+      justify-content: center;
+     
+      }
+      .buy{
+        font-size: 16px;
+margin-top: 1px;
+        width: 90px;
+        height: 35px;
+        color: white;
+        border-color: white;
+       
+        background:linear-gradient(rgb(92, 255, 92),rgb(29, 180, 29))
+        
+      }
+
+.purchase-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border-bottom: 1px solid #ddd;
+    font-size: 20px;
+}
+#reciept{
+    text-align: center;
+    margin-left: 0;
+}
+
+
+      #calculation{
+        margin-top: 50px;
+margin-left:300px;
+margin-right:300px;
+justify-content: center;
+min-height: 300px;
+padding-bottom: 30px;
+background-color: white;
+
+
+
+      }
+      .header{
+    font-weight: bold;
+    font-size: 22px;
+    border-bottom: 2px solid black;
+}
+      #purchases{
+   text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+      }
+      #spentTotal{
+font-size:25px;
+      }
+        </style>
+        </head>
+     
+    
+    <body>
+
+      
+        <div id="bg">
+        <div id="whole">
+        <div id="afterW">
+        <div id="Elon">
+            <img id="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9JiSI4DoBIG0Xr1BdGbBvJTZUSNQBux6HHhj_3zfzMQ&s=10">
+            <div id="spend"> Spend Elon's Money</div>
+        </div>
+        <div id="networth">
+        <div id="T">$1,000,000,000,000</div>
+        </div>
+      
+        <div id="objects">
+          
+   
+                
+     
+        </div>
+        
+           <div id="calculation">
+            <div id="reciept">
+    <h2>Your Reciept</h2>
+</div>
+<div class="purchase-row header">
+    <span>Item</span>
+    <span>Qty</span>
+    <span>Cost</span>
+</div>
+
+
+    
+  
+    <h3 id="spentTotal">
+     
+    </h3>
+     <div id="purchases"></div>
+</div>
+        </div>
+        </div>
+        </div>
+        <script src="index.js">
+           </script>
